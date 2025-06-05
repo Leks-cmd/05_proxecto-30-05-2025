@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Lato", sans-serif;
+    --padding-container: 100px 0;
+    --color-primary: #001a49;
+}
+
+/* Formulario de contacto - Página de contacto */
+.contacto {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, #000000c0 0%, #000000c0 100%), url('../img/fsffeqkd1sc.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.herotwo {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: grid;
+    color: var(--white);
+    background-color: #1d293f;
+}
+
+.input__img {
+    margin-bottom: 30px;
+}
+
+.price--form {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__inputs--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 1.5rem;
+    overflow: hidden;
+    background-color: #e5e5f7;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.input {
+    width: 408px;
+    height: 40px;
+}
+
+textarea {
+    width: 408px;
+    height: 200px;
+}
+
+/* Acerca de */
+.acercade__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.acecade__review {
+    line-height: 1.6;
+    width: auto;
+    height: auto;
+    letter-spacing: 1px;
+    margin-right: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.acercade__img {
+    border-radius: 10px;
+}
